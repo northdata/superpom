@@ -2,7 +2,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.northdata</groupId>
 	<artifactId>superpom</artifactId>
-	<version>1.0.0-SNAPSHOT</version>
+	<version>1.0.0</version>
 	<packaging>pom</packaging>
 	
 	<name>North Data Super-POM</name>
@@ -176,7 +176,7 @@
 		<connection>scm:git:git@github.com:northdata/superpom.git</connection>
 		<developerConnection>scm:git:git@github.com:northdata/superpom.git</developerConnection>
 		<url>http://github.com/northdata/superpom/tree/master</url>
-		<tag>HEAD</tag>
+		<tag>1.0.0</tag>
 	</scm>
 
 	<distributionManagement>
