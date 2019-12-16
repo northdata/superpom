@@ -2,8 +2,12 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.northdata</groupId>
 	<artifactId>superpom</artifactId>
-	<version>1.0.1-SNAPSHOT</version>
+	<version>1.0.0-SNAPSHOT</version>
 	<packaging>pom</packaging>
+	
+	<name>North Data Super-POM</name>
+	
+	<description>Maven Super-POM for North Data projects </description>
 
 	<properties>
 		<maven.compiler.target>1.8</maven.compiler.target>
