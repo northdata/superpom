@@ -1,8 +1,10 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.northdata</groupId>
 	<artifactId>superpom</artifactId>
-	<version>1.1.1-SNAPSHOT</version>
+	<version>1.2.0-SNAPSHOT</version>
 	<packaging>pom</packaging>
 
 	<name>North Data Super-POM</name>
@@ -21,12 +23,27 @@
 				<plugin>
 					<groupId>com.github.eirslett</groupId>
 					<artifactId>frontend-maven-plugin</artifactId>
-					<version>1.10.3</version>
+					<version>1.12.0</version>
 				</plugin>
 				<plugin>
 					<groupId>com.google.cloud.tools</groupId>
 					<artifactId>appengine-maven-plugin</artifactId>
 					<version>2.4.0</version>
+				</plugin>
+				<plugin>
+					<groupId>io.fabric8</groupId>
+					<artifactId>docker-maven-plugin</artifactId>
+					<version>0.36.1</version>
+				</plugin>
+				<plugin>
+					<groupId>net.revelc.code.formatter</groupId>
+					<artifactId>formatter-maven-plugin</artifactId>
+					<version>2.16.0</version>
+				</plugin>
+				<plugin>
+					<groupId>net.revelc.code</groupId>
+					<artifactId>impsort-maven-plugin</artifactId>
+					<version>1.6.2</version>
 				</plugin>
 				<plugin>
 					<groupId>org.apache.maven.plugins</groupId>
@@ -41,7 +58,7 @@
 				<plugin>
 					<groupId>org.apache.maven.plugins</groupId>
 					<artifactId>maven-dependency-plugin</artifactId>
-					<version>3.1.2</version>
+					<version>3.2.0</version>
 				</plugin>
 				<plugin>
 					<groupId>org.apache.maven.plugins</groupId>
@@ -61,7 +78,7 @@
 				<plugin>
 					<groupId>org.apache.maven.plugins</groupId>
 					<artifactId>maven-gpg-plugin</artifactId>
-					<version>1.6</version>
+					<version>3.0.1</version>
 				</plugin>
 				<plugin>
 					<groupId>org.apache.maven.plugins</groupId>
@@ -76,12 +93,12 @@
 				<plugin>
 					<groupId>org.apache.maven.plugins</groupId>
 					<artifactId>maven-javadoc-plugin</artifactId>
-					<version>3.2.0</version>
+					<version>3.3.0</version>
 				</plugin>
 				<plugin>
 					<groupId>org.apache.maven.plugins</groupId>
 					<artifactId>maven-release-plugin</artifactId>
-					<version>3.0.0-M1</version>
+					<version>3.0.0-M4</version>
 				</plugin>
 				<plugin>
 					<groupId>org.apache.maven.plugins</groupId>
@@ -112,9 +129,29 @@
 					</configuration>
 				</plugin>
 				<plugin>
+					<groupId>org.bsc.maven</groupId>
+					<artifactId>maven-processor-plugin</artifactId>
+					<version>5.0-jdk8-rc2</version>
+				</plugin>
+				<plugin>
 					<groupId>org.codehaus.mojo</groupId>
 					<artifactId>build-helper-maven-plugin</artifactId>
 					<version>3.2.0</version>
+				</plugin>
+				<plugin>
+					<groupId>org.codehaus.mojo</groupId>
+					<artifactId>exec-maven-plugin</artifactId>
+					<version>3.0.0</version>
+				</plugin>
+				<plugin>
+					<groupId>org.codehaus.mojo</groupId>
+					<artifactId>properties-maven-plugin</artifactId>
+					<version>1.0.0</version>
+				</plugin>
+				<plugin>
+					<groupId>org.codehaus.mojo</groupId>
+					<artifactId>versions-maven-plugin</artifactId>
+					<version>2.8.1</version>
 				</plugin>
 				<plugin>
 					<groupId>org.jvnet.jaxb2.maven2</groupId>
@@ -124,7 +161,7 @@
 				<plugin>
 					<groupId>org.openapitools</groupId>
 					<artifactId>openapi-generator-maven-plugin</artifactId>
-					<version>4.3.1</version>
+					<version>5.5.1</version>
 				</plugin>
 				<plugin>
 					<groupId>org.sonatype.plugins</groupId>
