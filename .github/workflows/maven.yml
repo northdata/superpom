@@ -28,6 +28,6 @@ jobs:
       run: |
         mvn --batch-mode --update-snapshots clean deploy
       env:
-        SONATYPE_USERNAME: ${{ secrets.SONATYPE_USERNAME }}  
-        SONATYPE_PASSWORD: ${{ secrets.SONATYPE_PASSWORD }}  
+        CENTRAL_PORTAL_USERNAME: ${{ secrets.CENTRAL_PORTAL_USERNAME }}  
+        CENTRAL_PORTAL_PASSWORD: ${{ secrets.CENTRAL_PORTAL_PASSWORD }}  
     

@@ -29,6 +29,6 @@ jobs:
       with:
         gpg_private_key: ${{ secrets.gpg_private_key }}
         gpg_passphrase: ${{ secrets.gpg_passphrase }}
-        nexus_username: ${{ secrets.SONATYPE_USERNAME }}
-        nexus_password: ${{ secrets.SONATYPE_PASSWORD }}
+        nexus_username: ${{ secrets.CENTRAL_PORTAL_USERNAME }}
+        nexus_password: ${{ secrets.CENTRAL_PORTAL_PASSWORD }}
         maven_profiles: release        
