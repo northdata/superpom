@@ -26,7 +26,7 @@ jobs:
         
     - name: Build Maven release
       run: |
-        mvn --batch-mode clean deploy -Prelease -Dgpg.signer=bc
+        mvn --batch-mode clean deploy -Prelease
       env:
         CENTRAL_PORTAL_USERNAME: ${{ secrets.CENTRAL_PORTAL_USERNAME }}  
         CENTRAL_PORTAL_PASSWORD: ${{ secrets.CENTRAL_PORTAL_PASSWORD }}  
