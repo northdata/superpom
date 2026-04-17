@@ -22,6 +22,11 @@
 		<pluginManagement>
 			<plugins>
 				<plugin>
+					<groupId>com.diffplug.spotless</groupId>
+					<artifactId>spotless-maven-plugin</artifactId>
+					<version>3.4.0</version>
+				</plugin>
+				<plugin>
 					<groupId>com.evolvedbinary.maven.mojohaus</groupId>
 					<artifactId>jaxb-maven-plugin</artifactId>
 					<version>3.0.0</version>
